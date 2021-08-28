@@ -94,11 +94,19 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
-.banner-1 .banner-1-text {
-    border: 1px solid red;
+.banner-1 article {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    height: 5em;
+    background-color: black;
 }
+
+article h2 {
+    padding-top: 1%;
+    padding-bottom: 2.5%;
+}
+
+/* Middle Banner */
