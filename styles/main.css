@@ -47,7 +47,7 @@ table {
 
 
 /* Universal Styles */
-body {
+html, body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -55,6 +55,8 @@ body {
     opacity: 0.9;
     text-align: center;
     margin: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 69px;
 }
 
 /* Header */
@@ -65,9 +67,9 @@ header {
     height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
-/*  position: fixed; */
-    position: sticky;
-
+    position: fixed;
+    top: 0;
+    background-color: black;
 }
 
 header img {
@@ -89,13 +91,14 @@ nav ul li a {
 /* Top Banner */
 .banner-1 {
     height: 700px;
-    width: 1200px;
+    max-width: 1200px;
     background-image: url("../images/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    margin-top: 69px;
 }
 
 .banner-1 article {
@@ -110,3 +113,18 @@ article h2 {
 }
 
 /* Middle Banner */
+.banner-2 {
+    border: 1px solid red;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 2.5%;
+}
+
+.banner-2 h4 {
+    margin-bottom: 2.5%;
+}
+
+.banner-2 figure img {
+    height: 200px;
+    max-width: 300px;
+}
