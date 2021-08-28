@@ -1,0 +1,39 @@
+/* Universal Styles */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+/*  position: fixed; */
+}
+
+header img {
+    display: inline-flex;
+    height: 50px;
+    margin-left: 10px;
+}
+
+header nav ul li {
+    display: inline-flex;
+    text-decoration: underline;
+    margin: 10px 10px;
+}
+
+header nav ul li a {
+    color: seashell;
+}
+
+/* Top Banner */
