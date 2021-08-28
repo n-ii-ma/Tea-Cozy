@@ -103,7 +103,7 @@ nav ul li a {
 
 .banner-1 article {
     width: 100%;
-    height: 5em;
+    height: 16%;
     background-color: black;
 }
 
@@ -114,7 +114,6 @@ article h2 {
 
 /* Middle Banner */
 .banner-2 {
-    border: 1px solid red;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 2.5%;
@@ -124,7 +123,19 @@ article h2 {
     margin-bottom: 2.5%;
 }
 
-.banner-2 figure img {
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure .cards {
     height: 200px;
     max-width: 300px;
+    margin: 10px;
+}
+
+figure figcaption {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
