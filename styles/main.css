@@ -151,9 +151,14 @@ nav ul li a {
     background-size: cover;
     margin: 0 auto;
     margin-top: 2.5%;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.banner-3 .boxes {
+    display: flex;
 }
 
 .banner-3 .address {
@@ -166,6 +171,7 @@ nav ul li a {
     background-color: black;
     opacity: 1;
     margin: 20px;
+
 }
 
 .address h3, p {
