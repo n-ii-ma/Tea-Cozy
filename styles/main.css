@@ -57,6 +57,7 @@ html, body {
     text-align: center;
     box-sizing: border-box;
     scroll-padding-top: 69px;
+    overflow: auto;
 }
 
 /* Header */
@@ -187,3 +188,7 @@ nav ul li a {
 }
 
 /* Footer */
+footer {
+    text-align: left;
+    margin: 20px 20px;
+}
