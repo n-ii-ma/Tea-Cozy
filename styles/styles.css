@@ -1,0 +1,140 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+html, body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header */
+header {
+    height: 4.54em;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+header a img {
+    height: 2.18em;
+    margin-top: 0.45em;
+}
+
+nav ul li {
+    display: inline-flex;
+    text-decoration: underline;
+    padding: 0.13em 0.25rem 0 0.25rem;
+}
+
+nav ul li a {
+    color: seashell;
+}
+
+/* Header for Landscape Mobile Screens */
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    header {
+        height: 3.13em;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    
+    header a img {
+        height: 2.72em;
+        margin: 0.22em 0 0 0.22em;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        padding: 0;
+        margin: 0 0.68em 0 0.68em;
+    }
+}
+
+/* Header for Tablet Screens */
+@media only screen and (min-width: 768px) {
+    header {
+        height: 5em;
+    }
+
+    header a img {
+        height: 2.5em;
+        padding-right: 0.45em;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.25em 0.45em 0 0.45em;
+    }
+
+    nav ul li {
+        padding: 0;
+    }
+}
+
+/* Header for Landscape Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+    header {
+        height: 3.13em;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    header a img {
+        height: 2.75em;
+        margin: 0.22em 0 0 0.22em;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 0.45em 0 0.45em;
+    }
+
+    nav ul li {
+        padding: 0;
+        margin: 0 0.68em 0 0.68em;
+        font-size: 1.25rem;
+    }
+}
+
+/* Header for Desktop Screens */
+@media only screen and (min-width: 900px) {
+    header {
+        height: 3.13em;
+        justify-content: space-between;
+    }
+    
+    header a img {
+        height: 2.27em;
+        margin: 0.22em 0 0 0.22em;
+    }
+    
+    nav ul li {
+        padding: 0;
+        margin: 0.45em 0.45em;
+        font-size: 1em;
+    }
+}
+
+/* Top Banner */
