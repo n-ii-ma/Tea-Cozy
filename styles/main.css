@@ -171,9 +171,19 @@ nav ul li a {
     background-color: black;
     opacity: 1;
     margin: 20px;
-
 }
 
 .address h3, p {
     margin: 25px auto;
 }
+
+/* Contact */
+.banner-4 {
+    height: 200px;
+}
+
+.banner-4 .contact h2, h5 {
+    margin: 25px auto;
+}
+
+/* Footer */
