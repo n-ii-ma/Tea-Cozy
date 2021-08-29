@@ -136,3 +136,38 @@ nav ul li a {
     height: 200px;
     margin: 10px 10px;
 }
+
+.container figcaption {
+    margin-bottom: 12px;
+}
+
+/* Bottom Banner */
+.banner-3 article {
+    height: 500px;
+    width: 1200px;
+    background-image: url("../images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 2.5%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-3 .address {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 1;
+    margin: 20px;
+}
+
+.address h3, p {
+    margin: 25px auto;
+}
