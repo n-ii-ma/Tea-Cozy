@@ -436,3 +436,39 @@ nav ul li a {
 }
 
 /* Contact */
+.banner-4 {
+    height: 115px;
+    margin-top: 10px;
+}
+
+.banner-4 .contact h2, h5 {
+    margin: 10px auto;
+}
+
+.banner-4 h2 {
+    font-size: 1.2em;
+}
+
+.banner-4 h5 {
+    font-size: 16px;
+}
+
+/* Contact Banner for Desktop Screens */
+@media only screen and (min-width: 900px) {
+    .banner-4 {
+        border: 1px solid red;
+        height: 200px;
+    }
+    
+    .banner-4 .contact h2, h5 {
+        margin: 20px auto;
+    }
+
+    .banner-4 h2 {
+        font-size: 33px;
+    }
+    
+    .banner-4 h5 {
+        font-size: 18.26px;
+    }
+}
