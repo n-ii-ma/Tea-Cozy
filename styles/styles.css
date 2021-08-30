@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     /* border: 1px solid red; */
+    border-radius: 1px;
 }
 
 html, body {
@@ -278,4 +279,46 @@ nav ul li a {
     .container figcaption {
         font-size: 18px;
     }
+}
+
+/* Bottom Banner */
+.banner-3 {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.banner-3 h2 {
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+
+.banner-3 .boxes {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .banner-3 .address {
+    width: 200px;
+    height: 200px;
+    background-color: snow;
+    color: black;
+    margin: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.address h3, p {
+    margin: 10px auto;
+}
+
+.address h3 {
+    font-size: 22px;
+}
+
+.address p {
+    font-size: 20px;
 }
