@@ -223,7 +223,6 @@ nav ul li a {
     }
     
     .banner-1 article h2 {
-        padding-top: 1%;
         padding-bottom: 0.75%;
         font-size: 28px;
     }
@@ -244,11 +243,10 @@ nav ul li a {
     }
     
     .banner-1 article {
-        height: 16%;
+        height: 17%;
     }
     
     .banner-1 article h2 {
-        padding-top: 1.2%;
         padding-bottom: 1.5%;
         font-size: 33px;
     }
@@ -256,5 +254,38 @@ nav ul li a {
     .banner-1 article h4 {
         font-size: 22px;
     }
+}
+
+/* Middle Banner */
+.banner-2 {
+    max-width: 450px;
+    margin-top: 5%;
+}
+
+.banner-2 article h2 {
+    font-size: 1.2em;
+}
+
+.banner-2 article h4 {
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    font-size: 16px;
+}
+
+.banner-2 figure {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container img {
+    width: 300px;
+    height: 200px;
+    margin: 10px 10px 0 10px;
+}
+
+.container figcaption {
+    margin-bottom: 12px;
+    font-size: 16px;
 }
 
