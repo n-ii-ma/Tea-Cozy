@@ -1,0 +1,495 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 1px;
+}
+
+html, body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    scroll-padding-top: 4.54em;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 4.54em;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+header a img {
+    height: 2.18em;
+    margin-top: 0.45em;
+}
+
+nav ul li {
+    display: inline-flex;
+    text-decoration: underline;
+    padding: 0.13em 0.25rem 0 0.25rem;
+}
+
+nav ul li a {
+    color: seashell;
+}
+
+/* Header for Landscape Mobile Screens */
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    header {
+        height: 3.13em;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    
+    header a img {
+        height: 2.72em;
+        margin: 0.22em 0 0 0.22em;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        padding: 0;
+        margin: 0 0.68em 0 0.68em;
+    }
+}
+
+/* Header for Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    header {
+        height: 5em;
+    }
+
+    header a img {
+        height: 2.5em;
+        padding-right: 0.45em;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.25em 0.45em 0 0.45em;
+    }
+
+    nav ul li {
+        padding: 0;
+        flex-grow: 1;
+        justify-content: center;
+    }
+}
+
+/* Header for Desktop Screens */
+@media only screen and (min-width: 900px) {
+    header {
+        height: 3.13em;
+        justify-content: space-between;
+    }
+    
+    header a img {
+        height: 2.27em;
+        margin: 0.30em 0 0 0.45em;
+    }
+    
+    nav ul li {
+        padding: 0;
+        margin: 0.45em 0.45em;
+        font-size: 1em;
+    }
+}
+
+/* Top Banner */
+.banner-1 {
+    height: 400px;
+    max-width: 450px;
+    background-image: url("../images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 48%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.54em;
+}
+
+.banner-1 article {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+.banner-1 article h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+}
+
+.banner-1 article h4 {
+    font-size: 15px;
+}
+
+/* Top Banner for Landscape Mobile Screens */
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    .banner-1 {
+        max-width: 700px;
+        margin-top: 3.13em;
+    }
+
+    .banner-1 article {
+        height: 22%;
+    }
+
+    .banner-1 article h2 {
+        padding-bottom: 0.5%;
+    }
+
+    .banner-1 article h4 {
+        font-size: 16px;
+        line-height: 1.2em;
+    }
+}
+
+/* Top Banner for Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    .banner-1 {
+        height: 500px;
+        max-width: 700px;
+        margin-top: 5em;
+    }
+    
+    .banner-1 article {
+        height: 17%;
+        padding: 0 30px 0 30px;
+    }
+    
+    .banner-1 article h2 {
+        padding-bottom: 0.5%;
+    }
+    
+    .banner-1 article h4 {
+        line-height: 1.3em;
+    }
+}
+
+/* Top Banner for Desktop Screens */
+@media only screen and (min-width: 900px) {
+    .banner-1 {
+        height: 700px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 3.02em;
+    }
+    
+    .banner-1 article {
+        height: 17%;
+    }
+    
+    .banner-1 article h2 {
+        padding-bottom: 1.5%;
+        font-size: 33px;
+    }
+
+    .banner-1 article h4 {
+        font-size: 22px;
+    }
+}
+
+/* Middle Banner */
+.banner-2 {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.banner-2 article h2 {
+    font-size: 1.2em;
+}
+
+.banner-2 article h4 {
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    font-size: 16px;
+}
+
+.banner-2 figure {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container img {
+    width: 300px;
+    height: 200px;
+    margin: 10px 10px 0 10px;
+}
+
+.container figcaption {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+/* Middle Banner for Landscape Mobile Screens */
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    .banner-2 {
+        max-width: 700px;
+        margin-top: 4%;
+    }
+}
+
+/* Middle Banner for Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    .banner-2 {
+        max-width: 700px;
+        margin-top: 3%;
+    }
+}
+
+/* Middle Banner for Desktop Screens */
+@media only screen and (min-width: 900px) {
+    .banner-2 {
+        max-width: 1000px;
+        margin-top: 2.5%;
+    }
+    
+    .banner-2 article h2 {
+        font-size: 33px;
+    }
+    
+    .banner-2 article h4 {
+        font-size: 22px;
+    }
+    
+    .container img {
+        margin: 10px 10px;
+    }
+    
+    .container figcaption {
+        font-size: 18px;
+    }
+}
+
+/* Bottom Banner */
+.banner-3 {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.banner-3 h2 {
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+
+.banner-3 .boxes {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .banner-3 .address {
+    width: 200px;
+    height: 200px;
+    background-color: snow;
+    color: black;
+    margin: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    opacity: 1;
+}
+
+.address h3, p {
+    margin: 10px auto;
+}
+
+.address h3 {
+    font-size: 22px;
+}
+
+.address p {
+    font-size: 20px;
+}
+
+/* Bottom Banner for Landscape Mobile Screens */
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    .banner-3 {
+        height: 350px;
+        max-width: 700px;
+        background-image: url("../images/img-locations-background.jpg");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: cover;
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-3 h2 {
+        margin-bottom: 0;
+    }
+    
+    .banner-3 .address {
+        width: 160px;
+        height: 160px;
+        background-color: black;
+        color: seashell;
+        margin: 10px 20px;
+    }
+
+    .address h3 {
+        font-size: 16px;
+    }
+    
+    .address p {
+        font-size: 12px;
+    }
+}
+
+/* Bottom Banner for Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    .banner-3 {
+        height: 400px;
+        max-width: 700px;
+        background-image: url("../images/img-locations-background.jpg");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: cover;
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-3 h2 {
+        margin-bottom: 0;
+    }
+    
+    .banner-3 .address {
+        width: 180px;
+        height: 180px;
+        background-color: black;
+        color: seashell;
+        margin: 10px 20px;
+    }
+
+    .address h3 {
+        font-size: 18px;
+    }
+    
+    .address p {
+        font-size: 14px;
+    }
+}
+
+/* Bottom Banner for Desktop Screens */
+@media only screen and (min-width: 900px) {
+    .banner-3 {
+        height: 700px;
+        max-width: 1200px;
+        background-image: url("../images/img-locations-background.jpg");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: cover;
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-3 h2 {
+        font-size: 33px;
+        margin-bottom: 0;
+    }
+    
+    .banner-3 .address {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        color: seashell;
+        margin: 10px 20px;
+    }
+
+    .address h3 {
+        font-size: 25.74px;
+    }
+    
+    .address p {
+        font-size: 22px;
+    }
+}
+
+/* Contact */
+.banner-4 {
+    height: 115px;
+    margin-top: 10px;
+}
+
+.banner-4 .contact h2, h5 {
+    margin: 10px auto;
+}
+
+.banner-4 h2 {
+    font-size: 1.2em;
+}
+
+.banner-4 h5 {
+    font-size: 16px;
+}
+
+/* Contact Banner for Desktop Screens */
+@media only screen and (min-width: 900px) {
+    .banner-4 {
+        height: 200px;
+    }
+    
+    .banner-4 .contact h2, h5 {
+        margin: 20px auto;
+    }
+
+    .banner-4 h2 {
+        font-size: 33px;
+    }
+    
+    .banner-4 h5 {
+        font-size: 18.26px;
+    }
+}
+
+/* Footer */
+footer {
+    font-size: 16px;
+}
+
+/* Footer for Desktop Screens */
+@media only screen and (min-width: 900px) {
+    footer {
+        font-size: 1em;
+        text-align: left;
+        margin-left: 20px;
+    }
+}
