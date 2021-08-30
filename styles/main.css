@@ -37,7 +37,7 @@ header a img {
 nav ul li {
     display: inline-flex;
     text-decoration: underline;
-    padding: 0.13em 0.25rem 0 0.25rem;
+    padding: 0.13em 0.25em 0 0.25em;
 }
 
 nav ul li a {
@@ -120,8 +120,8 @@ nav ul li a {
 
 /* Top Banner */
 .banner-1 {
-    height: 400px;
-    max-width: 450px;
+    height: 18.18em;
+    max-width: 20.45em;
     background-image: url("../images/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,13 +145,13 @@ nav ul li a {
 }
 
 .banner-1 article h4 {
-    font-size: 15px;
+    font-size: 0.68em;
 }
 
 /* Top Banner for Landscape Mobile Screens */
 @media only screen and (min-width: 320px) and (orientation: landscape) {
     .banner-1 {
-        max-width: 700px;
+        max-width: 31.81em;
         margin-top: 3.13em;
     }
 
@@ -164,7 +164,7 @@ nav ul li a {
     }
 
     .banner-1 article h4 {
-        font-size: 16px;
+        font-size: 0.72em;
         line-height: 1.2em;
     }
 }
@@ -172,14 +172,14 @@ nav ul li a {
 /* Top Banner for Tablet Screens */
 @media only screen and (min-width: 768px) and (orientation: portrait) {
     .banner-1 {
-        height: 500px;
-        max-width: 700px;
+        height: 22.72em;
+        max-width: 31.81em;
         margin-top: 5em;
     }
     
     .banner-1 article {
         height: 17%;
-        padding: 0 30px 0 30px;
+        padding: 0 1.36em 0 1.36em;
     }
     
     .banner-1 article h2 {
@@ -194,8 +194,8 @@ nav ul li a {
 /* Top Banner for Desktop Screens */
 @media only screen and (min-width: 900px) {
     .banner-1 {
-        height: 700px;
-        max-width: 1200px;
+        height: 31.81em;
+        max-width: 54.54em;
         margin: 0 auto;
         display: flex;
         margin-top: 3.02em;
@@ -207,17 +207,17 @@ nav ul li a {
     
     .banner-1 article h2 {
         padding-bottom: 1.5%;
-        font-size: 33px;
+        font-size: 1.5em;
     }
 
     .banner-1 article h4 {
-        font-size: 22px;
+        font-size: 1em;
     }
 }
 
 /* Middle Banner */
 .banner-2 {
-    max-width: 450px;
+    max-width: 20.45em;
     margin: 0 auto;
     margin-top: 5%;
 }
@@ -229,7 +229,7 @@ nav ul li a {
 .banner-2 article h4 {
     margin-top: 2.5%;
     margin-bottom: 2%;
-    font-size: 16px;
+    font-size: 0.72em;
 }
 
 .banner-2 figure {
@@ -239,20 +239,20 @@ nav ul li a {
 }
 
 .container img {
-    width: 300px;
-    height: 200px;
-    margin: 10px 10px 0 10px;
+    width: 13.63em;
+    height: 9.09em;
+    margin: 0.45em 0.45em 0 0.45em;
 }
 
 .container figcaption {
-    margin-bottom: 12px;
-    font-size: 16px;
+    margin-bottom: 0.54em;
+    font-size: 0.72em;
 }
 
 /* Middle Banner for Landscape Mobile Screens */
 @media only screen and (min-width: 320px) and (orientation: landscape) {
     .banner-2 {
-        max-width: 700px;
+        max-width: 31.81em;
         margin-top: 4%;
     }
 }
@@ -260,7 +260,7 @@ nav ul li a {
 /* Middle Banner for Tablet Screens */
 @media only screen and (min-width: 768px) and (orientation: portrait) {
     .banner-2 {
-        max-width: 700px;
+        max-width: 31.81em;
         margin-top: 3%;
     }
 }
@@ -268,30 +268,30 @@ nav ul li a {
 /* Middle Banner for Desktop Screens */
 @media only screen and (min-width: 900px) {
     .banner-2 {
-        max-width: 1000px;
+        max-width: 45.45em;
         margin-top: 2.5%;
     }
     
     .banner-2 article h2 {
-        font-size: 33px;
+        font-size: 1.5em;
     }
     
     .banner-2 article h4 {
-        font-size: 22px;
+        font-size: 1em;
     }
     
     .container img {
-        margin: 10px 10px;
+        margin: 0.45em 0.45em;
     }
     
     .container figcaption {
-        font-size: 18px;
+        font-size: 0.81em;
     }
 }
 
 /* Bottom Banner */
 .banner-3 {
-    max-width: 450px;
+    max-width: 20.45em;
     margin: 0 auto;
     margin-top: 5%;
 }
@@ -308,11 +308,11 @@ nav ul li a {
 }
 
  .banner-3 .address {
-    width: 200px;
-    height: 200px;
+    width: 9.09em;
+    height: 9.09em;
     background-color: snow;
     color: black;
-    margin: 10px;
+    margin: 0.45em;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -321,22 +321,22 @@ nav ul li a {
 }
 
 .address h3, p {
-    margin: 10px auto;
+    margin: 0.45em auto;
 }
 
 .address h3 {
-    font-size: 22px;
+    font-size: 1em;
 }
 
 .address p {
-    font-size: 20px;
+    font-size: 0.90em;
 }
 
 /* Bottom Banner for Landscape Mobile Screens */
 @media only screen and (min-width: 320px) and (orientation: landscape) {
     .banner-3 {
-        height: 350px;
-        max-width: 700px;
+        height: 15.90em;
+        max-width: 31.81em;
         background-image: url("../images/img-locations-background.jpg");
         background-repeat: no-repeat;
         background-position-y: center;
@@ -353,27 +353,27 @@ nav ul li a {
     }
     
     .banner-3 .address {
-        width: 160px;
-        height: 160px;
+        width: 7.27em;
+        height: 7.27em;
         background-color: black;
         color: seashell;
-        margin: 10px 20px;
+        margin: 0.45em 0.90em;
     }
 
     .address h3 {
-        font-size: 16px;
+        font-size: 0.72em;
     }
     
     .address p {
-        font-size: 12px;
+        font-size: 0.54em;
     }
 }
 
 /* Bottom Banner for Tablet Screens */
 @media only screen and (min-width: 768px) and (orientation: portrait) {
     .banner-3 {
-        height: 400px;
-        max-width: 700px;
+        height: 18.18em;
+        max-width: 31.81em;
         background-image: url("../images/img-locations-background.jpg");
         background-repeat: no-repeat;
         background-position-y: center;
@@ -390,27 +390,27 @@ nav ul li a {
     }
     
     .banner-3 .address {
-        width: 180px;
-        height: 180px;
+        width: 8.18em;
+        height: 8.18em;
         background-color: black;
         color: seashell;
-        margin: 10px 20px;
+        margin: 0.45em 0.90em;
     }
 
     .address h3 {
-        font-size: 18px;
+        font-size: 0.81em;
     }
     
     .address p {
-        font-size: 14px;
+        font-size: 0.63em;
     }
 }
 
 /* Bottom Banner for Desktop Screens */
 @media only screen and (min-width: 900px) {
     .banner-3 {
-        height: 700px;
-        max-width: 1200px;
+        height: 31.81em;
+        max-width: 54.54em;
         background-image: url("../images/img-locations-background.jpg");
         background-repeat: no-repeat;
         background-position-y: center;
@@ -423,35 +423,35 @@ nav ul li a {
     }
 
     .banner-3 h2 {
-        font-size: 33px;
+        font-size: 1.5em;
         margin-bottom: 0;
     }
     
     .banner-3 .address {
-        width: 300px;
-        height: 300px;
+        width: 13.63em;
+        height: 13.63em;
         background-color: black;
         color: seashell;
-        margin: 10px 20px;
+        margin: 0.45em 0.90em;
     }
 
     .address h3 {
-        font-size: 25.74px;
+        font-size: 1.17em;
     }
     
     .address p {
-        font-size: 22px;
+        font-size: 1em;
     }
 }
 
 /* Contact */
 .banner-4 {
-    height: 115px;
-    margin-top: 10px;
+    height: 5.22em;
+    margin-top: 0.45em;
 }
 
 .banner-4 .contact h2, h5 {
-    margin: 10px auto;
+    margin: 0.45em auto;
 }
 
 .banner-4 h2 {
@@ -459,31 +459,31 @@ nav ul li a {
 }
 
 .banner-4 h5 {
-    font-size: 16px;
+    font-size: 0.72em;
 }
 
 /* Contact Banner for Desktop Screens */
 @media only screen and (min-width: 900px) {
     .banner-4 {
-        height: 200px;
+        height: 9.09em;
     }
     
     .banner-4 .contact h2, h5 {
-        margin: 20px auto;
+        margin: 0.90em auto;
     }
 
     .banner-4 h2 {
-        font-size: 33px;
+        font-size: 1.5em;
     }
     
     .banner-4 h5 {
-        font-size: 18.26px;
+        font-size: 0.83em;
     }
 }
 
 /* Footer */
 footer {
-    font-size: 16px;
+    font-size: 0.72em;
 }
 
 /* Footer for Desktop Screens */
@@ -491,6 +491,6 @@ footer {
     footer {
         font-size: 1em;
         text-align: left;
-        margin-left: 20px;
+        margin-left: 0.90em;
     }
 }
