@@ -94,32 +94,6 @@ nav ul li a {
     }
 }
 
-/* Header for Landscape Tablet Screens */
-@media only screen and (min-width: 768px) and (orientation: landscape) {
-    header {
-        height: 3.13em;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    
-    header a img {
-        height: 2.75em;
-        margin: 0.22em 0 0 0.22em;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: flex-end;
-        margin: 0 0.45em 0 0.45em;
-    }
-
-    nav ul li {
-        padding: 0;
-        margin: 0 0.68em 0 0.68em;
-        font-size: 1.25rem;
-    }
-}
-
 /* Header for Desktop Screens */
 @media only screen and (min-width: 900px) {
     header {
@@ -209,31 +183,6 @@ nav ul li a {
     }
 }
 
-/* Top Banner for Landscape Tablet Screens */
-@media only screen and (min-width: 768px) and (orientation: landscape) {
-    .banner-1 {
-        height: 600px;
-        max-width: 900px;
-        margin: 0 auto;
-        display: flex;
-    }
-    
-    .banner-1 article {
-        height: 17%;
-        padding: 0 30px 0 30px;
-    }
-    
-    .banner-1 article h2 {
-        padding-bottom: 0.75%;
-        font-size: 28px;
-    }
-    
-    .banner-1 article h4 {
-        font-size: 19px;
-        line-height: 1.3em;
-    }
-}
-
 /* Top Banner for Desktop Screens */
 @media only screen and (min-width: 900px) {
     .banner-1 {
@@ -307,25 +256,26 @@ nav ul li a {
     }
 }
 
-/* Top Banner for Landscape Tablet Screens */
-@media only screen and (min-width: 768px) and (orientation: landscape) {
+/* Middle Banner for Desktop Screens */
+@media only screen and (min-width: 900px) {
     .banner-2 {
-        max-width: 900px;
+        max-width: 1000px;
         margin-top: 2.5%;
     }
     
     .banner-2 article h2 {
-        font-size: 28px;
+        font-size: 33px;
     }
     
     .banner-2 article h4 {
-        font-size: 19px;
+        font-size: 22px;
     }
     
     .container img {
-        width: 200px;
-        height: fit-content;
         margin: 10px 10px;
     }
+    
+    .container figcaption {
+        font-size: 18px;
+    }
 }
-
