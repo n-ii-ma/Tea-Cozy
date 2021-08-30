@@ -13,17 +13,20 @@ html, body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    scroll-padding-top: 4.54em;
 }
 
 /* Header */
 header {
-    max-width: 100%;
+    width: 100%;
     height: 4.54em;
     border-bottom: 1px solid seashell;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: black;
+    position: fixed;
+    top: 0;
 }
 
 header a img {
@@ -125,6 +128,7 @@ nav ul li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-top: 4.54em;
 }
 
 .banner-1 article {
@@ -147,6 +151,7 @@ nav ul li a {
 @media only screen and (min-width: 320px) and (orientation: landscape) {
     .banner-1 {
         max-width: 700px;
+        margin-top: 3.13em;
     }
 
     .banner-1 article {
@@ -168,6 +173,7 @@ nav ul li a {
     .banner-1 {
         height: 500px;
         max-width: 700px;
+        margin-top: 5em;
     }
     
     .banner-1 article {
@@ -191,6 +197,7 @@ nav ul li a {
         max-width: 1200px;
         margin: 0 auto;
         display: flex;
+        margin-top: 3.02em;
     }
     
     .banner-1 article {
