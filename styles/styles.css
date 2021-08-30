@@ -158,8 +158,8 @@ nav ul li a {
 
 .banner-1 article h2 {
     padding-top: 1%;
-    padding-bottom: 2%;
-    font-size: 1em;
+    padding-bottom: 1%;
+    font-size: 1.2em;
 }
 
 .banner-1 article h4 {
@@ -171,7 +171,11 @@ nav ul li a {
     .banner-1 {
         max-width: 700px;
     }
-    
+
+    .banner-1 article {
+        height: 22%;
+    }
+
     .banner-1 article h2 {
         padding-bottom: 0.5%;
     }
@@ -190,7 +194,7 @@ nav ul li a {
     }
     
     .banner-1 article {
-        height: 16%;
+        height: 17%;
         padding: 0 30px 0 30px;
     }
     
@@ -201,4 +205,36 @@ nav ul li a {
     .banner-1 article h4 {
         line-height: 1.3em;
     }
+}
+
+/* Top Banner for Landscape Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+    .banner-1 {
+        height: 600px;
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .banner-1 article {
+        height: 17%;
+        width: 100%;
+        padding: 0 30px 0 30px;
+    }
+    
+    .banner-1 article h2 {
+        padding-top: 1%;
+        padding-bottom: 0.75%;
+        font-size: 28px;
+    }
+    
+    .banner-1 article h4 {
+        font-size: 19px;
+        line-height: 1.3em;
+    }
+}
+
+/* Top Banner for Desktop Screens */
+@media only screen and (min-width: 900px) {
+
 }
