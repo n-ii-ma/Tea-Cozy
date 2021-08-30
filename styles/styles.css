@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
     border-radius: 1px;
 }
 
@@ -456,7 +455,6 @@ nav ul li a {
 /* Contact Banner for Desktop Screens */
 @media only screen and (min-width: 900px) {
     .banner-4 {
-        border: 1px solid red;
         height: 200px;
     }
     
@@ -470,5 +468,19 @@ nav ul li a {
     
     .banner-4 h5 {
         font-size: 18.26px;
+    }
+}
+
+/* Footer */
+footer {
+    font-size: 16px;
+}
+
+/* Footer for Desktop Screens */
+@media only screen and (min-width: 900px) {
+    footer {
+        font-size: 1em;
+        text-align: left;
+        margin-left: 20px;
     }
 }
