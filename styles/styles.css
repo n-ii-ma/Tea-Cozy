@@ -173,15 +173,32 @@ nav ul li a {
     }
     
     .banner-1 article h2 {
-        padding-bottom: 1%;
+        padding-bottom: 0.5%;
     }
 
     .banner-1 article h4 {
         font-size: 16px;
+        line-height: 1.2em;
     }
 }
 
 /* Top Banner for Tablet Screens */
 @media only screen and (min-width: 768px) and (orientation: portrait) {
-
+    .banner-1 {
+        height: 500px;
+        max-width: 700px;
+    }
+    
+    .banner-1 article {
+        height: 16%;
+        padding: 0 30px 0 30px;
+    }
+    
+    .banner-1 article h2 {
+        padding-bottom: 0.5%;
+    }
+    
+    .banner-1 article h4 {
+        line-height: 1.3em;
+    }
 }
