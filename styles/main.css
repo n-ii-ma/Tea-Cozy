@@ -103,6 +103,7 @@ nav ul li a {
     header {
         height: 3.13em;
         justify-content: space-between;
+        flex-direction: row;
     }
     
     header a img {
