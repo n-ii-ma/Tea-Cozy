@@ -88,6 +88,8 @@ nav ul li a {
 
     nav ul li {
         padding: 0;
+        flex-grow: 1;
+        justify-content: center;
     }
 }
 
@@ -137,3 +139,49 @@ nav ul li a {
 }
 
 /* Top Banner */
+.banner-1 {
+    height: 400px;
+    max-width: 450px;
+    background-image: url("../images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 48%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-1 article {
+    height: 20%;
+    background-color: black;
+}
+
+.banner-1 article h2 {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 1em;
+}
+
+.banner-1 article h4 {
+    font-size: 15px;
+}
+
+/* Top Banner for Landscape Mobile Screens */
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    .banner-1 {
+        max-width: 700px;
+    }
+    
+    .banner-1 article h2 {
+        padding-bottom: 1%;
+    }
+
+    .banner-1 article h4 {
+        font-size: 16px;
+    }
+}
+
+/* Top Banner for Tablet Screens */
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+
+}
