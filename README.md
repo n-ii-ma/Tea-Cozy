@@ -1,4 +1,4 @@
-# Tea-Cozy
+# Tea Cozy
 
 A Codecademy Project
 
